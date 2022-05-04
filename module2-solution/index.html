@@ -1,1 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Assignment Solution for Module 2</title>
+ <style>
+   /********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+#box{
+  margin-right: 35px;
+  overflow: auto;
+  margin-bottom: 15px;
+}
+h1 {
+  font-family: Charter ;
+  margin-bottom: 15px;
+  color:tomato;
+  text-align: center;
+}
 
+p {
+  width: 90%;
+  height: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Charter ;
+  color: rgb(54, 78, 129);
+}
+#title1{
+  border: 1px solid black;
+  width: 80px;
+  height: 40px;
+  background-color: #A52A2A;
+  margin-top: 0;
+  margin-right: 0;
+}
+#title2{
+  background-color: #DEB887;
+  border: 1px solid black;
+  width: 80px;
+  height: 40px;
+  margin-top: 0;
+  margin-right: 0;
+}
+#title3{
+  background-color: #FF7F50;
+  border: 1px solid black;
+  width: 80px;
+  height: 40px;
+  margin-top: 0;
+  margin-right: 0;
+}
+.bg1{
+  background-color: #c9e7ff
+}
+.bg2{
+background-color: #fedde4
+}
+.bg3{
+  background-color: #e3d1dd;
+}
+.row {
+  width: 100%;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .col-lg-3 {
+    float: left;
+    border: 1px solid rgb(155, 87, 170);
+  }
+  .col-lg-3 {
+    width: 28%;
+  }
+  
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-1,.col-md-12{
+    float: left;
+    border: 1px solid rgb(104, 81, 149); 
+  }
+  .col-md-1 {
+    width: 45%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
+
+/********** Small devices only **********/
+@media (max-width: 767px) {
+  .col-sm-12{
+    float: left;
+    border: 1px solid rgb(104, 81, 149); 
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+<h1>Welcome to Xinyi's Hot Pot</h1>
+<div class="row">
+  <div class="col-lg-3  col-md-1 col-sm-12 bg1" id="box"><p id="title1">Choose 1</p><p>All meat<br />
+  1. Beef <br /> 2. Lamb <br /> 3. Chicken <br /> 4. Meatball <br />5. Pork head <br /></p></div>
+
+  <div class="col-lg-3  col-md-1 col-sm-12 bg2" id="box"><p id="title2">Choose 2</p><p>All Vegetable <br />1. Cabbage<br />
+  2. Radish <br />3. Spinach<br /> 4. Lotus root<br /> 5. Potato <br />6. Tomato <br /></p></div>
+  <div class="col-lg-3  col-md-12 col-sm-12 bg3" id="box"><p id="title3">Choose 3</p><p>Mix<br />1.Beef<br />2.Maetball<br />3.Fish Tofu<br />4.Potato<br />5.Radish<br /></p></div>
+
+</div>
+	
+</body>
+</html>
